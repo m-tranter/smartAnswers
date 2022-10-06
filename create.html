@@ -36,6 +36,15 @@
           </div>
         </div>
       </div>
+      <div id="data">
+        <h3>Data</h3>
+        <template v-for="dog in dogs">
+          <template v-for="k in Object.keys(dog)">
+            <p v-if="k === 'description'">{{k}}: {{dog[k].substr(0,100)}}</p>
+            <p v-else>{{k}}: {{dog[k]}}</p>
+          </template>
+        </template>
+      </div>
     </div>
 
     <script src="./create.js"></script>
