@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  background-color: wheat;
+}
+
+.main {
+  background: coral;
+  border: 1px solid black;
+}
+
+.summary {
+  background: palegreen;
+  border: 1px solid black;
+}
+
+#questions {
+  border: 3px solid teal;
+  border-radius: 20px;
+  width: 95%;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  color: white;
+  background-color: black;
+}
